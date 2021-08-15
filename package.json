@@ -1,0 +1,30 @@
+{
+  "name": "ecom-store",
+  "version": "1.0.0",
+  "description": "MERN e-commerse app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server",
+    "server": "nodemon backend/server",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thisalvindula/ECom-Store.git"
+  },
+  "author": "Thisal Vindula",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thisalvindula/ECom-Store/issues"
+  },
+  "homepage": "https://github.com/thisalvindula/ECom-Store#readme",
+  "devDependencies": {
+    "concurrently": "^6.2.1",
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
