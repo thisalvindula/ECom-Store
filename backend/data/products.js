@@ -1,6 +1,5 @@
 const products = [
   {
-    _id: '1',
     name: 'Macbook Pro 2019',
     image: '/images/macbookPro.jpg',
     description:
@@ -13,7 +12,6 @@ const products = [
     numReviews: 4,
   },
   {
-    _id: '2',
     name: 'Epson Perfection V39 Scanner',
     image: '/images/scanner.jpg',
     description:
@@ -26,7 +24,6 @@ const products = [
     numReviews: 1,
   },
   {
-    _id: '3',
     name: 'Xerox photocopy machine',
     image: '/images/photocopyMachine.png',
     description:
@@ -39,7 +36,6 @@ const products = [
     numReviews: 2,
   },
   {
-    _id: '4',
     name: 'Rinsec FingerPrint Scanner',
     image: '/images/FingerprintScanner.jpg',
     description:
@@ -52,7 +48,6 @@ const products = [
     numReviews: 4,
   },
   {
-    _id: '5',
     name: 'Asus vivobook Pro',
     image: '/images/vivobookPro.jpg',
     description:
@@ -65,7 +60,6 @@ const products = [
     numReviews: 2,
   },
   {
-    _id: '6',
     name: 'BenQ MS531 projector',
     image: '/images/projector.jpg',
     description:
@@ -78,7 +72,6 @@ const products = [
     numReviews: 3,
   },
   {
-    _id: '7',
     name: 'Epson Laser printer',
     image: '/images/laserPrinter.png',
     description:
@@ -91,7 +84,6 @@ const products = [
     numReviews: 2,
   },
   {
-    _id: '8',
     name: 'IMac M1',
     image: '/images/imacPro.jpeg',
     description:
@@ -105,4 +97,4 @@ const products = [
   },
 ]
 
-module.exports = products
+export default products
