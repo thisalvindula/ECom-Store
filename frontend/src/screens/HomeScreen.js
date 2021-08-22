@@ -17,7 +17,7 @@ const HomeScreen = () => {
   }, [])
 
   return (
-    <>
+    <React.Fragment>
       <h1>Latest Products</h1>
       <Row>
         {products.map((product) => (
@@ -26,7 +26,7 @@ const HomeScreen = () => {
           </Col>
         ))}
       </Row>
-    </>
+    </React.Fragment>
   )
 }
 
